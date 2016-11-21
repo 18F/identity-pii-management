@@ -1,0 +1,21 @@
+{
+  "name": "identity-pii-management",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "build-css": "./bin/build-css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "engines": {
+    "node": "~4.4.x",
+    "npm": "~3.8.x"
+  },
+  "devDependencies": {
+    "node-sass": "^3.7.0",
+    "nodemon": "^1.9.2"
+  },
+  "dependencies": {
+    "basscss-sass": "^3.0.0",
+    "normalize.css": "^4.2.0"
+  }
+}
