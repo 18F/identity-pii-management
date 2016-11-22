@@ -2,3 +2,17 @@ html { font-size: 16px; }
 body { -webkit-font-smoothing: antialiased; }
 
 .bg-blue-light { background: $blue-light; }
+
+@media #{$breakpoint-md} {
+  .md-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
+
+@media #{$breakpoint-sm} {
+  .sm-py0 {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+}
